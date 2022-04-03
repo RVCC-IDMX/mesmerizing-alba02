@@ -35,6 +35,14 @@ body {
   transform-origin: bottom center;
 }
 
+@media (prefers-reduced-motion){
+    :root{
+      --anispeed:100s;
+    }
+     @media (prefers-color-scheme:dark) {
+       
+     }
+  }
 .holder .circle:nth-child(1) {
   background: black;
   border-bottom: none;
