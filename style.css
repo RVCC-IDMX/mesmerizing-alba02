@@ -39,10 +39,26 @@ body {
     :root{
       --anispeed:100s;
     }
-     @media (prefers-color-scheme:dark) {
-       
-     }
   }
+
+     @media (prefers-color-scheme:dark) {
+       body{
+         background-color: black;
+       }
+
+       .wrapper {
+        height: 75vh;
+        padding: 2rem;
+        outline: 1px solid white;
+        margin: 3rem;
+       }
+       
+       .holder .circle{
+         background: white;
+       }
+
+     }
+  
 .holder .circle:nth-child(1) {
   background: black;
   border-bottom: none;
